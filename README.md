@@ -5,3 +5,4 @@ Repo for labs
 
 - Stepan Polishchuk
 - Yulia Oliinyk
+- Bohdan Maik
