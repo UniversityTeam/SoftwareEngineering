@@ -7,6 +7,10 @@ import (
 	"encoding/json"
 )
 
+type TimeS struct {
+	Time string json:"time"
+}
+
 func feature() {
 	fmt.Println("New feature delivered!")
 }
