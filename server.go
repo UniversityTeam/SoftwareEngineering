@@ -8,7 +8,7 @@ import (
 )
 
 type TimeS struct {
-	Time string json:"time"
+	Time string `json:"time"`
 }
 
 func feature() {
