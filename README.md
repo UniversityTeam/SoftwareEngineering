@@ -7,3 +7,4 @@ Repo for labs
 - Yulia Oliinyk
 - Bohdan Maik
 - Guskov Danil
+- Wrong User
