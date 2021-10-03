@@ -9,5 +9,8 @@ func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintf(w, "Server is running on Go...")
 	})
-	http.ListenAndServe(":80", nil)
+	http.HandleFunc("/time", func(w http.ResponseWriter, r *http.Request) {
+		fmt.Fprintf(w, "Now time is:")
+	})
+	http.ListenAndServe(":8795", nil)
 }
